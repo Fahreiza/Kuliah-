@@ -8,10 +8,10 @@ public class Main {
 
         // Square Pyramid
         System.out.println("Enter the length of the base side of the square pyramid:");
-        double baseSideLength = scanner.nextDouble();
+        double Length = scanner.nextDouble();
         System.out.println("Enter the height of the square pyramid:");
         double height = scanner.nextDouble();
-        SquarePyramid squarePyramid = new SquarePyramid(baseSideLength, height);
+        SquarePyramid squarePyramid = new SquarePyramid(Length, height);
         System.out.println("Surface Area of Square Pyramid: " + squarePyramid.calculateSurfaceArea());
         System.out.println("Volume of Square Pyramid: " + squarePyramid.calculateVolume());
 

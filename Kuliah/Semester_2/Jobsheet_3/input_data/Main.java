@@ -1,4 +1,4 @@
-package Kuliah.Semester_2.Jobsheet_3.Piramid.input_data;
+package Kuliah.Semester_2.Jobsheet_3.input_data;
 
 import java.util.Scanner;
 
