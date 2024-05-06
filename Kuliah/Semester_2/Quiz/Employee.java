@@ -9,8 +9,8 @@ public class Employee {
     public int livingAllowance;
     public int transportationAllowance;
 
-    //cons
-    public Employee(String nama, int age, int g1, int g2, int g3,int LA, int Ta) {
+    // cons
+    public Employee(String nama, int age, int g1, int g2, int g3, int LA, int Ta) {
         this.nama = nama;
         this.age = age;
         this.gaji1 = g1;
@@ -20,18 +20,22 @@ public class Employee {
         this.transportationAllowance = Ta;
     }
 
+    // method
     public double getAge() {
         return age;
     }
 
+    // Rata Rata
     public double Rataratagaji() {
         return (gaji1 + gaji2 + gaji3) / 3.0;
     }
 
+    // Total gaji+Tunjangan
     public int Totalgaji() {
         return gaji1 + gaji2 + gaji3 + livingAllowance + transportationAllowance;
     }
 
+    // Display
     public void printData() {
         System.out.println("Name: " + nama);
         System.out.println("Umur: " + age);
